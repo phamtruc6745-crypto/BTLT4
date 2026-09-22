@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Trúc's Tea - Quán trà sữa với hương vị thơm ngon, đậm đà. Thực đơn phong phú từ trà sữa truyền thống, trà trái cây đến macchiato kem cheese." />
+  <title>Trúc's Tea – Đậm vị trà, thơm vị sữa</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="site-header">
+    <div class="header-inner">
+      <div class="header-logo-wrap">
+        <img
+          src="../images/logo.png"
+          alt="Logo Trúc's Tea"
+          class="logo-img"
+          onerror="this.style.display='none'"
+        />
+        <div class="header-brand">
+          <h1 class="brand-name">Trúc's Tea</h1>
+          <p class="brand-slogan">✦ Đậm vị trà &nbsp;·&nbsp; Thơm vị sữa ✦</p>
+        </div>
+      </div>
+      <!-- Decorative bubble elements -->
+      <div class="header-bubbles" aria-hidden="true">
+        <span class="bubble b1"></span>
+        <span class="bubble b2"></span>
+        <span class="bubble b3"></span>
+        <span class="bubble b4"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav id="main-nav" aria-label="Điều hướng chính">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#hero" class="nav-link">🏠 Trang chủ</a></li>
+      <li class="nav-item"><a href="#menu" class="nav-link">📋 Thực đơn</a></li>
+      <li class="nav-item"><a href="#promo" class="nav-link">🎁 Khuyến mãi</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">📞 Liên hệ</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== HERO / BANNER ===================== -->
+  <section id="hero" aria-label="Banner giới thiệu">
+    <div class="hero-content">
+      <h2 class="hero-title">Chào mừng đến với Trúc's Tea</h2>
+      <p class="hero-sub">Mỗi ngụm trà là một khoảnh khắc thư giãn — ngọt ngào, thanh mát và đầy yêu thương.</p>
+      <a href="#menu" class="btn-hero">Xem thực đơn ngay</a>
+    </div>
+  </section>
+
+  <!-- ===================== MAIN LAYOUT ===================== -->
+  <div id="main-wrapper">
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="main-content">
+
+      <!-- ----- Section 1: Trà sữa truyền thống ----- -->
+      <section class="menu-section" id="menu" aria-labelledby="ts-heading">
+        <h2 id="ts-heading" class="section-title">
+          <span class="section-icon">🧋</span> Trà Sữa Truyền Thống
+        </h2>
+
+        <div class="cards-grid">
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/trasua_oolong.png"
+                alt="Trà Sữa Oolong Nướng Trân Châu"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Trà Sữa Oolong Nướng Trân Châu</h3>
+              <p class="card-desc">Hương vị trà oolong đậm đà sấy caramen hòa quyện cùng sữa béo ngậy và trân châu dai dẻo.</p>
+              <div class="card-footer">
+                <span class="card-price">42.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/suatuoi_tranchau.png"
+                alt="Sữa Tươi Trân Châu Đường Đen"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Sữa Tươi Trân Châu Đường Đen</h3>
+              <p class="card-desc">Sữa tươi thanh trùng thanh béo kết hợp cùng dòng sốt đường đen ấm nóng và trân châu dẻo dai.</p>
+              <div class="card-footer">
+                <span class="card-price">40.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/trasua_hochocolate.png"
+                alt="Trà Sữa Socola"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Trà Sữa Socola</h3>
+              <p class="card-desc">Vị socola đậm đà quyện cùng nền trà đen và sữa tươi béo mịn, thêm trân châu đen bùng nổ hương vị.</p>
+              <div class="card-footer">
+                <span class="card-price">38.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/trasua_khoaimon.png"
+                alt="Trà Sữa Khoai Môn"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Trà Sữa Khoai Môn</h3>
+              <p class="card-desc">Màu tím đặc trưng, vị khoai môn bùi bùi thơm nồng kết hợp sữa mịn ngọt dịu và trân châu trắng giòn.</p>
+              <div class="card-footer">
+                <span class="card-price">36.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.cards-grid -->
+      </section>
+
+      <!-- ----- Section 2: Trà trái cây ----- -->
+      <section class="menu-section" id="tra-trai-cay" aria-labelledby="ttc-heading">
+        <h2 id="ttc-heading" class="section-title">
+          <span class="section-icon">🍑</span> Trà Trái Cây Thanh Mát
+        </h2>
+
+        <div class="cards-grid">
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/tradao_camsa.png"
+                alt="Trà Đào Cam Sả"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Trà Đào Cam Sả</h3>
+              <p class="card-desc">Vị trà thanh mát kết hợp tép cam mọng nước, hương sả nồng nàn và đào giòn ngọt lịm.</p>
+              <div class="card-footer">
+                <span class="card-price">35.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/luctradau_yakult.png"
+                alt="Lục Trà Dâu Tây Lên Men (Dâu Yakult)"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Lục Trà Dâu Tây Lên Men</h3>
+              <p class="card-desc">Vị chua ngọt sảng khoái từ mứt dâu tươi hòa cùng sữa chua uống yakult giải nhiệt cực đã.</p>
+              <div class="card-footer">
+                <span class="card-price">39.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/tra_oi.png"
+                alt="Trà Ổi Xanh"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Trà Ổi Xanh</h3>
+              <p class="card-desc">Hương ổi xanh nồng đượm, vị chát nhẹ của lá trà xanh pha chua dịu của chanh leo — tươi mát không thể cưỡng.</p>
+              <div class="card-footer">
+                <span class="card-price">33.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/tra_dautam.png"
+                alt="Trà Dâu Tằm"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Trà Dâu Tằm</h3>
+              <p class="card-desc">Màu tím tuyệt đẹp, vị dâu tằm chua ngọt tự nhiên kết hợp trà lài thanh thoát và thạch rau câu giòn mát.</p>
+              <div class="card-footer">
+                <span class="card-price">37.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.cards-grid -->
+      </section>
+
+      <!-- ----- Section 3: Macchiato / Kem Cheese ----- -->
+      <section class="menu-section" id="macchiato" aria-labelledby="mac-heading">
+        <h2 id="mac-heading" class="section-title">
+          <span class="section-icon">🧁</span> Macchiato &amp; Kem Cheese
+        </h2>
+
+        <div class="cards-grid">
+
+          <article class="menu-card featured-card">
+            <span class="badge-new">Mới</span>
+            <div class="card-img-wrap">
+              <img
+                src="../images/traxanh_macchiato.jpg"
+                alt="Trà Xanh Macchiato Kem Cheese"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Trà Xanh Macchiato (Trà Kem Cheese)</h3>
+              <p class="card-desc">Cốt trà lài thơm ngát phủ lớp váng sữa kem phô mai béo mặn, sánh mịn khó cưỡng.</p>
+              <div class="card-footer">
+                <span class="card-price">38.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/oolong_macchiato.jpg"
+                alt="Oolong Macchiato"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Oolong Macchiato</h3>
+              <p class="card-desc">Trà oolong đậm vị phủ tầng kem cheese mặn ngọt, uống từng ngụm thưởng thức hương trà tan dần nơi đầu lưỡi.</p>
+              <div class="card-footer">
+                <span class="card-price">40.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/hong_tra_macchiato.jpg"
+                alt="Hồng Trà Macchiato"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Hồng Trà Macchiato</h3>
+              <p class="card-desc">Nền hồng trà đỏ đẹp lắng đọng phủ kem sữa tươi bồng bềnh — nhẹ nhàng mà sang trọng hết mức.</p>
+              <div class="card-footer">
+                <span class="card-price">38.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="card-img-wrap">
+              <img
+                src="../images/bactruc_macchiato.jpg"
+                alt="Bạc Trúc Macchiato"
+                class="card-img"
+                loading="lazy"
+                onerror="this.src='../images/placeholder.png'; this.onerror=null"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Bạc Hà Macchiato</h3>
+              <p class="card-desc">Thanh mát từ hương bạc hà tươi, kết hợp nền trà xanh dịu nhẹ và lớp kem cheese béo mịn đặc trưng.</p>
+              <div class="card-footer">
+                <span class="card-price">39.000 ₫</span>
+                <a href="#order" class="btn-order">Đặt món</a>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.cards-grid -->
+      </section>
+
+      <!-- ----- Section 4: Topping ----- -->
+      <section class="menu-section" id="topping" aria-labelledby="top-heading">
+        <h2 id="top-heading" class="section-title">
+          <span class="section-icon">✨</span> Topping Thêm
+        </h2>
+
+        <div class="topping-list">
+          <div class="topping-item">
+            <span class="topping-name">Trân châu đen</span>
+            <span class="topping-price">+5.000 ₫</span>
+          </div>
+          <div class="topping-item">
+            <span class="topping-name">Trân châu trắng</span>
+            <span class="topping-price">+5.000 ₫</span>
+          </div>
+          <div class="topping-item">
+            <span class="topping-name">Thạch rau câu</span>
+            <span class="topping-price">+5.000 ₫</span>
+          </div>
+          <div class="topping-item">
+            <span class="topping-name">Pudding trứng</span>
+            <span class="topping-price">+8.000 ₫</span>
+          </div>
+          <div class="topping-item">
+            <span class="topping-name">Kem cheese</span>
+            <span class="topping-price">+8.000 ₫</span>
+          </div>
+          <div class="topping-item">
+            <span class="topping-name">Nata de coco</span>
+            <span class="topping-price">+5.000 ₫</span>
+          </div>
+          <div class="topping-item">
+            <span class="topping-name">Lòng đỏ trứng muối</span>
+            <span class="topping-price">+10.000 ₫</span>
+          </div>
+          <div class="topping-item">
+            <span class="topping-name">Hạt chia</span>
+            <span class="topping-price">+5.000 ₫</span>
+          </div>
+        </div>
+
+      </section>
+
+    </main><!-- /#main-content -->
+
+    <!-- ========== ASIDE ========== -->
+    <aside id="sidebar" aria-label="Thông tin phụ và khuyến mãi">
+
+      <!-- Bestseller of the week -->
+      <section class="aside-block" id="bestseller" aria-labelledby="best-heading">
+        <h2 id="best-heading" class="aside-title">⭐ Món yêu thích tuần này</h2>
+        <ol class="bestseller-list">
+          <li class="bestseller-item">
+            <img src="../images/tradao_camsa.png" alt="Trà Đào Cam Sả" class="bs-img" onerror="this.style.display='none'" />
+            <div class="bs-info">
+              <strong>Trà Đào Cam Sả</strong>
+              <span class="bs-price">35.000 ₫</span>
+            </div>
+          </li>
+          <li class="bestseller-item">
+            <img src="../images/trasua_oolong.png" alt="Trà Sữa Oolong" class="bs-img" onerror="this.style.display='none'" />
+            <div class="bs-info">
+              <strong>Trà Sữa Oolong Nướng</strong>
+              <span class="bs-price">42.000 ₫</span>
+            </div>
+          </li>
+          <li class="bestseller-item">
+            <img src="../images/traxanh_macchiato.jpg" alt="Trà Xanh Macchiato" class="bs-img" onerror="this.style.display='none'" />
+            <div class="bs-info">
+              <strong>Trà Xanh Macchiato</strong>
+              <span class="bs-price">38.000 ₫</span>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Promotions -->
+      <section class="aside-block promo-block" id="promo" aria-labelledby="promo-heading">
+        <h2 id="promo-heading" class="aside-title">🎁 Khuyến mãi đặc biệt</h2>
+        <ul class="promo-list">
+          <li class="promo-item">
+            <span class="promo-tag">HOT</span>
+            <p><strong>Mua 2 tặng 1</strong> topping bất kỳ khi order online. Áp dụng thứ 2 – thứ 6.</p>
+          </li>
+          <li class="promo-item">
+            <span class="promo-tag">MỚI</span>
+            <p><strong>Giảm 15%</strong> cho khách hàng lần đầu đặt hàng tại quán. Xuất trình màn hình này.</p>
+          </li>
+          <li class="promo-item">
+            <span class="promo-tag">VIP</span>
+            <p><strong>Thành viên VIP</strong> tích điểm đổi quà — 10 ly = 1 ly miễn phí!</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Opening hours -->
+      <section class="aside-block hours-block" aria-labelledby="hours-heading">
+        <h2 id="hours-heading" class="aside-title">🕐 Giờ mở cửa</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Thứ 2 – Thứ 6</td><td><strong>07:30 – 21:30</strong></td></tr>
+            <tr><td>Thứ 7 – Chủ nhật</td><td><strong>08:00 – 22:00</strong></td></tr>
+            <tr class="today-row"><td>Hôm nay</td><td><strong class="open-badge">Đang mở cửa ✔</strong></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+    </aside><!-- /#sidebar -->
+
+  </div><!-- /#main-wrapper -->
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="site-footer">
+    <div class="footer-inner">
+
+      <div class="footer-col footer-about">
+        <h3 class="footer-logo-text">Trúc's Tea</h3>
+        <p>Quán trà sữa nhỏ xinh mang đậm tình cảm — nơi mỗi ly trà là một câu chuyện ngọt ngào.</p>
+      </div>
+
+      <div class="footer-col footer-contact" id="contact">
+        <h3>Liên hệ</h3>
+        <address>
+          <p>📍 123 Đường Lê Văn Việt, Q. 9, TP.HCM</p>
+          <p>📞 <a href="tel:+84901234567">0813641915</a></p>
+          <p>📧 <a href="mailto:trucstea@gmail.com">trucstea@gmail.com</a></p>
+        </address>
+      </div>
+
+      <div class="footer-col footer-social">
+        <h3>Theo dõi chúng tôi</h3>
+        <ul class="social-list">
+          <li><a href="#" class="social-link facebook" aria-label="Facebook Trúc's Tea">Facebook</a></li>
+          <li><a href="#" class="social-link instagram" aria-label="Instagram Trúc's Tea">Instagram</a></li>
+          <li><a href="#" class="social-link tiktok" aria-label="TikTok Trúc's Tea">TikTok</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-hours-mini">
+        <h3>Giờ mở cửa</h3>
+        <p>Thứ 2–6: 07:30 – 21:30</p>
+        <p>Thứ 7–CN: 08:00 – 22:00</p>
+      </div>
+
+    </div><!-- /.footer-inner -->
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Trúc's Tea. Bản quyền thuộc về <strong>Trúc's Tea</strong>. Thiết kế bởi <em>6651071085_PhamTruc</em>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
